@@ -2676,7 +2676,7 @@ class App extends Component {
       >
         <Routes>
           <Route exact path="/login" element={<Login />} />
-          <Route element={<ProtectedRoute />}>
+            <Route element={<ProtectedRoute />}>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/reports" element={<Reports />} />
             <Route path="*" element={<NotFound />} />
